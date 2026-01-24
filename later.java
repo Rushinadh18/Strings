@@ -1,5 +1,5 @@
 class later{
-    static int  jim(){
+    int  jim(){
         
     }
     static void main(String[] args){
