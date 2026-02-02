@@ -5,13 +5,17 @@ public class ops {
  int get() {
         return v;
     }
-    static void min(){
+    void min(){
         System.out.println(10*2);
+    }void mna(){
+        
     }
+
 
     public static void main(String[] args) {
         ops hi = new ops();
         System.out.println(hi.get());
-        min();
+        hi.min();
+
     }
 }

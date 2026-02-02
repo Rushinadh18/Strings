@@ -1,29 +1,15 @@
-class vim{
-  private  int age;
-  private char hi;
-vim(int h,char b){
-age=h;
-hi=b;
+public class encapsule{
 
-}
-int getname(){
-    return age;
+    private int v = 90;
 
-}
-char getchar(){
-    return hi;
-}
-}
-public class encapsule {
-    static void main(String[] args){
+    int get() {
+        return v;
+    }
 
-    vim num=new vim(29,'k');
-    
-    
-    
-    System.out.println(num.getname()+" "+num.getchar());
-
-   
-
+    public static void main(String[] args) {
+        encapsule hi = new encapsule();
+        int b=hi.get();
+        
+        System.out.print(hi.get());
     }
 }
